@@ -4,14 +4,18 @@ window = tk.Tk()
 window.title("Quadratic")
 window.geometry("300x300")
 
-a_in = tk.Entry(text= "Parameter a")
+tk.Label(text= "Parameter a:").pack()
+a_in = tk.Entry()
 a_in.pack()
 
-b_in = tk.Entry(text= "Parameter b")
+tk.Label(text= "Parameter b:").pack()
+b_in = tk.Entry()
 b_in.pack()
 
-c_in = tk.Entry(text= "Parameter c")
+tk.Label(text= "Parameter c:").pack()
+c_in = tk.Entry()
 c_in.pack()
+
 
 
 def compute():
